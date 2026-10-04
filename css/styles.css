@@ -126,7 +126,7 @@ img {
 
 .site-header .logo {
   min-width: 0;
-  max-width: 55%;
+  max-width: 50%;
 }
 
 .logo {
@@ -140,14 +140,14 @@ img {
   display: block;
   width: auto;
   height: clamp(2.5rem, 5vw, 3.75rem);
-  max-width: min(14rem, 60vw);
+  max-width: min(12rem, 50vw);
   object-fit: contain;
   object-position: left center;
 }
 
 .logo__img--footer {
   height: clamp(2.5rem, 5vw, 3.5rem);
-  max-width: min(14rem, 60vw);
+  max-width: min(12rem, 50vw);
   opacity: 0.92;
 }
 
