@@ -1,0 +1,34 @@
+UPUTE ZA SLIKE
+==============
+
+IZVOĐAČI
+  Slika ide u mapu slike/ i zove se:
+    plemenitiplinovi.jpg, talgo.jpg, veki.jpg, sosta.jpg, ivano.jpg (Marta)
+  Ako slike nema, prikaže se slovo umjesto nje. Najbolje kvadratne slike (1:1).
+
+EVENTI
+  Svaki event ima svoju mapu: slike/eventi/<ime-eventa>/
+    underground-weekend-2/
+    underground-weekend-1/
+    gregor-magas/
+
+  cover.jpg        -> slika na kartici u popisu eventa
+  01.jpg, 02.jpg.. -> galerija na stranici eventa (do 40 slika, brojevi redom)
+
+  Slike moraju biti .jpg.
+
+NOVI EVENT
+  1. Kopiraj event-underground-weekend-2.html u event-<novo-ime>.html
+  2. Promijeni naslov, datum, mjesto, opis i putanju slike (data-folder) u novu mapu
+  3. U events.html kopiraj jednu karticu i promijeni link, putanju slike i tekst
+  4. Napravi mapu slike/eventi/<novo-ime>/
+
+Pokretanje lokalno:  npm start  (ili otvori events.html u pregledniku;
+galerija i slike najbolje rade preko "npm start").
+
+IZDANJA
+  Naslovnice ide u mapu slike/izdanja/ (najbolje kvadratne, 1:1):
+    romanticna-pjesma-house.jpg, cp3.jpg, di-me-ugrizla.jpg, nemrebitsreca.jpg,
+    toxtricity.jpg, pljacka-vam-materina.jpg, romanticna-pjesma.jpg
+  Ako slike nema, prikaže se oznaka (DV001...).
+  Za novo izdanje kopiraj jednu karticu u releases.html i promijeni putanju slike.

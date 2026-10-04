@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#080808" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="Platforma za nove izvođače prvi put u klubu Exit Osijek." />
+    <title>Underground Weekend #1 — Dvaes Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="grain-bg">
+    <header class="site-header">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Dvaes Digital" class="logo__img" />
+      </a>
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Izbornik"
+      >
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+      <nav id="site-nav" aria-label="Main">
+        <ul class="site-nav">
+          <li><a href="index.html">Naslovnica</a></li>
+          <li><a href="events.html" aria-current="page">Eventi</a></li>
+          <li><a href="artists.html">Izvođači</a></li>
+          <li><a href="releases.html">Izdanja</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <header class="page-hero container">
+        <a href="events.html" class="back-link">&larr; Svi eventi</a>
+        <p class="section-label">Prošli - 17./18.7.2025.</p>
+        <h1>Underground Weekend #1</h1>
+      </header>
+
+      <section class="container">
+        <dl class="event-info">
+          <div><dt>Datum</dt><dd>17./18.7.2025.</dd></div>
+          <div><dt>Mjesto</dt><dd>Exit, Osijek</dd></div>
+          <div><dt>Status</dt><dd>Održano</dd></div>
+        </dl>
+
+        <div class="event-desc">
+          <p>Prvo izdanje Underground Weekenda, platforme za nove izvođače, održano je u klubu Exit u Osijeku.</p>
+          <p>Ovdje možeš dodati line-up, vremenik i dojmove s večeri.</p>
+        </div>
+      </section>
+
+      <section class="container gallery-section">
+        <h2 class="section-title">Galerija</h2>
+        <!-- Slike stavi u mapu slike/eventi/underground-weekend-1/ i nazovi ih 01.jpg, 02.jpg, 03.jpg ... -->
+        <div class="gallery" data-gallery data-folder="slike/eventi/underground-weekend-1" data-max="40"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Dvaes Digital" class="logo__img logo__img--footer" />
+      </a>
+      <span>&copy; <span id="year"></span> Dvaes Digital. sva prava pridržana.</span>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
