@@ -139,8 +139,8 @@ img {
 .logo__img {
   display: block;
   width: auto;
-  height: clamp(2.5rem, 5vw, 3.75rem);
-  max-width: min(12rem, 50vw);
+  height: clamp(1rem, 2vw, 2.75rem);
+  max-width: min(10rem, 40vw);
   object-fit: contain;
   object-position: left center;
 }
