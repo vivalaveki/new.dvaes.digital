@@ -32,3 +32,10 @@ IZDANJA
     toxtricity.jpg, pljacka-vam-materina.jpg, romanticna-pjesma.jpg
   Ako slike nema, prikaže se oznaka (DV001...).
   Za novo izdanje kopiraj jednu karticu u releases.html i promijeni putanju slike.
+
+
+JEZIK (HR / EN)
+  Gumb u donjem lijevom kutu dodaje js/i18n.js. Stranice ostaju napisane na hrvatskom,
+  a engleski prijevodi su u rječniku EN na vrhu js/i18n.js.
+  Kad dodaš novi tekst na stranicu, dodaj i redak:  "hrvatski tekst": "english text",
+  inače će na engleskom ostati hrvatski. Odabrani jezik pamti se između stranica.
